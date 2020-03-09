@@ -1,0 +1,69 @@
+.taskContainer {
+  position: relative;
+  width: 250px;
+  height: 56px;
+}
+.task {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #000;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 14px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.task:focus {
+  border-color: #34ffc2;
+}
+
+.taskLabel {
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: -12px;
+  left: 14px;
+  padding: 0 3px;
+  background-color: #fff;
+}
+
+.addTaskContainer {
+  position: relative;
+  margin-top: 50px;
+  width: 250px;
+  height: 56px;
+  background-color: #000;
+}
+
+.addTaskBtn {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 56px;
+  padding: 0 23px 0 16px;
+  background-color: #34ffc2;
+  border: 3px solid #000;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.addTaskBtn:hover {
+  padding-right: 40px;
+}
+
+.addTaskBtn:active {
+  bottom: 0; /* -6 */
+  right: 0;
+}
+
+.addTaskText {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Sen";
+}
