@@ -1,0 +1,28 @@
+.tasksContainer {
+  width: 100%;
+  .activeTasks {
+    margin-bottom: 50px;
+  }
+  .title {
+    display: flex;
+    border-bottom: 3px solid $black;
+    padding: 0 0 15px 5px;
+
+    img {
+      display: block;
+      margin-right: 15px;
+    }
+
+    .text {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 16px;
+      font-weight: 800;
+      margin-top: 3px;
+    }
+  }
+
+  .title.title--done {
+    border-color: $grey;
+  }
+}

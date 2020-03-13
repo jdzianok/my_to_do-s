@@ -1,0 +1,99 @@
+.singleTask {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 17px 12px 15px 15px;
+  border-bottom: 3px solid $black;
+
+  .doneTaskBtnActive,
+  .doneTaskBtn {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .doneTaskBtnActive {
+    border: 3px solid $black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    img {
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  .doneTaskBtnActive:hover img {
+    opacity: 1;
+  }
+
+  .doneTaskBtnActive:active,
+  .doneTaskBtnActive:hover {
+    background-color: $green;
+    border-color: $black;
+  }
+
+  .doneTaskBtn {
+    background-color: $grey;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .taskName {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.0875em;
+    cursor: pointer;
+
+    .deadlineDate {
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+  }
+
+  .deleteTaskBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-30%, -50%);
+    border-radius: 50%;
+    padding: 8px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .deleteTaskBtn:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.singleTask:hover .taskName {
+  color: $grey;
+}
+
+.singleTask.singleTask--done {
+  border-bottom: 3px solid $grey;
+
+  .taskName {
+    color: $grey;
+    cursor: auto;
+  }
+}

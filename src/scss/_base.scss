@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+$background: #f1f1f1;
+$green: #bdff70;
+$neonGreen: #34ffc2;
+$white: #fff;
+$black: #000;
+$grey: #979797;
+
 html {
   font-family: "Sen", sans-serif;
 }
@@ -15,12 +22,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: $background;
 }
 
 button,
 input {
   outline: none;
 }
-
-$green: #bdff70;
-$neonGreen: #34ffc2;
