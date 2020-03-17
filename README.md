@@ -1,6 +1,6 @@
 # my to do’s
 
-Simple to do app with oldschool design. Very handy for making quick notes.
+A simple to-do app with a retro vibe. Very handy for making quick notes.
 
 App was created with `create-react-app`
 
