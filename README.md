@@ -4,7 +4,7 @@ A simple to-do app with a retro vibe. Very handy for making quick notes.
 
 App was created with `create-react-app`
 
-## Take a look at [this] app (https://jdzianok.github.io/my_to_do-s/)
+## Take a look at my [app](https://jdzianok.github.io/my_to_do-s/)
 
 ## Preview
 
