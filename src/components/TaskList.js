@@ -2,6 +2,7 @@ import React from "react";
 import Task from "./Task";
 import toDo from "../assets/todo.svg";
 import toDo_done from "../assets/todo_done.svg";
+// import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 const TaskList = ({ tasks, deleteTask, change }) => {
   //creatin collection of active and done tasks

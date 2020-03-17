@@ -37,6 +37,7 @@ class App extends Component {
       }
     ]
   };
+
   handleSubmit = e => {
     e.preventDefault();
   };
@@ -77,6 +78,7 @@ class App extends Component {
 
     return true;
   };
+
   render() {
     return (
       <div className="app">
