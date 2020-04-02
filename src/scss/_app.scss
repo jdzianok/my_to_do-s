@@ -1,14 +1,9 @@
 .app {
   position: relative;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
   padding: 70px 65px 90px;
-  // height: 40vh;
   // min-height: 1000px;
   background-color: $white;
   width: 1000px;
-  // border: 2px solid black;
   font-family: "Sen", sans-serif;
 
   &::before,
